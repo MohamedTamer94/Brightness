@@ -1,3 +1,2 @@
-## Brightness
-
-An App Inventor 2 extension created using Rush.
+# Brightness
+A small extension to apply brightness to the current window, without requiring any special permission.
