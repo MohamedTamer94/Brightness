@@ -1,0 +1,27 @@
+# For a detailed info on this file and supported fields, check
+# out this link: https://github.com/ShreyashSaitwal/rush-cli/wiki/Metadata-File
+
+---
+name: Brightness           # Caution: DO NOT change the name.
+description: "An extension to change the app's windows brightness without requiring a special permission.\n Developed By: Mohamed Tamer"
+
+version:
+  number: auto        # Auto increments version number when built with '-r' ('--release') flag.
+  name: '1.0'
+
+authors:
+  - Mohamed Tamer
+
+build:
+  # If enabled, you will be able to use Java 8 language features in your extension.
+  desugar:
+    enable: true
+    desugar_deps: false
+
+  # Optimizes your extension on every release build.
+  release:
+    optimize: true
+
+assets:
+  # Extension icon
+  icon: icon.png

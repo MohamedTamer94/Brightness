@@ -1,0 +1,7 @@
+# Development dependencies' directory
+.rush/dev-deps
+
+.idea/
+
+# Output directory
+out
